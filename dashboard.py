@@ -372,4 +372,4 @@ def update_description(selected_traj):
     return descrips
 
 if __name__ == '__main__':
-    app.run_server(debug=True, host='192.168.1.76', port = 8080)
+    app.run_server(debug=True, host='192.168.1.76', port = 8050)
