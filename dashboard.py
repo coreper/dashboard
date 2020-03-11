@@ -27,9 +27,9 @@ def GPS2current(GPS_time=301773079421553.0):
     current_time = datetime.utcfromtimestamp(tai_timestamp)
     return current_time
 
-def encode_image(image_file):
-    encoded = base64.b64encode(open(image_file, 'rb').read())
-    return 'data:image/png;base64,{}'.format(encoded.decode())
+# def encode_image(image_file):
+#     encoded = base64.b64encode(open(image_file, 'rb').read())
+#     return 'data:image/png;base64,{}'.format(encoded.decode())
 
 
 df = pd.read_csv('./demo.csv')
